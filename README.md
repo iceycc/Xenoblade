@@ -12,3 +12,5 @@
 ### webchat-api-nestjs
 - 功能：微信开发server端
 - 技术栈：nestjs + tnwx
+
+### husky配置
