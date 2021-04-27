@@ -1,0 +1,34 @@
+.open_page{
+  width: 100vw;
+  height: 100vh;
+  background: lime;
+  position: relative;
+  overflow: hidden;
+}
+
+.img{
+    width:100%;
+    height:100%;
+    display: block;
+    background: #fff;
+  }
+
+  .img_wrap{
+    width: 100vw;
+    height: 100%;
+  }
+
+  .cropper_seawave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    img {
+      user-select: none;
+      height: 100vh;
+      width: 100vw;
+      pointer-events:none;
+    }
+  }

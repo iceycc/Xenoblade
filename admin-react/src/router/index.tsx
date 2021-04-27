@@ -37,6 +37,12 @@ function RouterConfig({ history, app }: any) {
       },
       children: HomeRoute,
     },
+    {
+      id: 'image',
+      name: '首页 ',
+      path: '/image',
+      component: () => import('src/pages/Image'),
+    },
   ];
 
   const renderRoutes = (routes: IRouteConfig[]) => {
