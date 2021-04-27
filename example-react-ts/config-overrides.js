@@ -18,7 +18,22 @@ module.exports = override(
     //     libraryDirectory: 'es',
     //     style: true  //自动打包相关的样式 默认为 style:'css',这里需要改为true
     // }),
-    addLessLoader(),
+    addLessLoader({
+
+        lessOptions: {
+            strictMath: true,
+            noIeCompat: true,
+            javascriptEnabled: true,
+            localIdentName: '[local]--[hash:base64:5]',
+            modifyVars: {
+                "@primary-color": "#1DA57A", // for example, you use Ant Design to change theme color.
+            },
+            cssLoaderOptions: {}, // .less file used css-loader option, not all CSS file.
+            cssModules: {
+                localIdentName: "[path][name]__[local]--[hash:base64:5]", // if you use CSS Modules, and custom `localIdentName`, default is '[local]--[hash:base64:5]'.
+            }
+        }
+    }),
     addWebpackAlias({ //路径别名
         '@': path.resolve(__dirname, 'src'),
     }),
