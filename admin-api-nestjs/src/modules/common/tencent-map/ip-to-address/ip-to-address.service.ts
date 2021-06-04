@@ -4,6 +4,7 @@ import * as superagent from 'superagent';
 @Injectable()
 export class IpToAddressService {
   public async IpToAddress(ip: string): Promise<string | null> {
+    console.log('1');
     if (ip === '::1') {
       return '开发环境运行';
     }
@@ -13,6 +14,7 @@ export class IpToAddressService {
         .query({ ip })
         .query({ output: 'json' })
         .query({ key: process.env.TENCENT_MAP_KEY });
+
       const {
         status,
         result: { ad_info },
@@ -25,7 +27,8 @@ export class IpToAddressService {
       }
     } catch (e) {
       console.log(e, '地址解析错误');
-      throw new Error(`${ip}地址解析错误`);
+      // throw new Error(`${ip}地址解析错误`);
+      return '开发环境运行';
     }
   }
 }
