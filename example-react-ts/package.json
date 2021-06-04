@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@antv/g6": "^4.2.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -46,9 +47,12 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
     "@types/marked": "^2.0.2",
     "@types/react-router-dom": "^5.1.7",
+    "babel-loader": "^8.2.2",
     "customize-cra": "^1.0.0",
+    "jsx-loader": "^0.13.2",
     "less": "^4.1.1",
     "less-loader": "^7.3.0",
     "react-app-rewired": "^2.1.8"

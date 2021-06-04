@@ -4,13 +4,14 @@ const {
     // fixBabelImports, // 按需加载配置函数
     addBabelPlugins, // babel插件配置函数
     addWebpackAlias, // /路径别名
+    addWebpackModuleRule
 } = require('customize-cra');
 const path = require("path");
 module.exports = override(
     ...addBabelPlugins( // 支持装饰器
         [
             '@babel/plugin-proposal-decorators',
-            { legacy: true}
+            {legacy: true}
         ]
     ),
     // fixBabelImports('import', { // antd 按需加载
@@ -18,6 +19,19 @@ module.exports = override(
     //     libraryDirectory: 'es',
     //     style: true  //自动打包相关的样式 默认为 style:'css',这里需要改为true
     // }),
+    addWebpackModuleRule({
+        test: /\.md$/,
+        use: './loader/md.loader'
+    }),
+    addWebpackModuleRule({
+        test: /\.mdx$/,
+        use: [{
+            loader:'babel-loader',
+            options: {
+                presets:['@babel/preset-react']
+            }
+        }, './loader/mdx.loader']
+    }),
     addLessLoader({
 
         lessOptions: {
@@ -38,6 +52,7 @@ module.exports = override(
         '@': path.resolve(__dirname, 'src'),
     }),
     (config) => {
+        // console.log('---'.config)
         // todo 配置less？
         //修改、添加loader 配置 :
         // 所有的loaders规则是在config.module.rules(数组)的第二项

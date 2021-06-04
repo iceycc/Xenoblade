@@ -2,56 +2,87 @@
  * 自己封装React-Router映射
  */
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
 } from 'react-router-dom'
 
 import MdEditor from '../pages/MdEditor'
+import MdRender from '../pages/MdRender'
+import WorkFlow from '../pages/WorkFlow'
+import okMd from '../pages/Mdx/ok.mdx'
+import * as React from "react";
+
 
 interface IRoute {
     path: string
     name: string
     meta?: Record<any, any>
-    component?: (props: any) => JSX.Element
-    children?: IRoute[]
+    component?: ((props?: any) => JSX.Element | null) | (new(props?: any) => React.Component<any, any>)
+    routes?: IRoute[]
+    title?: string
 }
 
-const routes: IRoute[] = [{
-    path: '/',
-    name: '',
-    children: [
-        {
-            path: '/mdEditor',
-            name: 'mdEditor',
-            component: MdEditor,
-        },
-    ]
-}]
-
-export default function Routers(props: Record<string, any>) {
-    // @ts-ignore
-    const RouteMap = function (propsOption: { routes: IRoute[] }) {
-        return propsOption.routes.reduce((prev: JSX.Element[], next: IRoute) => {
-            let routes
-            if (next.children && Array.isArray(next.children)) {
-                routes = [...prev, RouteMap({routes: next.children})]
-            } else {
-                prev.push((
-                    <Route path={next.path} key={`${next.path}`}>
-                        {next.component && next.component({...propsOption, meta: next.meta} as Record<string,any>)}
-                    </Route>
-                ))
-                routes = prev
+export const routes: IRoute[] = [
+    {
+        path: '/mdxParse',
+        name: 'mdxParse',
+        component: okMd,
+        title: 'mdx解析'
+    },
+    {
+        path: '/mdEditor',
+        name: 'mdEditor',
+        component: MdEditor,
+        title: 'markdown编辑器'
+    },
+    {
+        path: '/MdRender',
+        name: 'MdRender',
+        component: MdRender,
+        title: 'markdown编译器'
+    },
+    {
+        path: '/workFlow',
+        name: 'WorkFlow',
+        component: WorkFlow,
+        title: '工作流程'
+    },
+    {
+        path: '/33',
+        name: '33',
+        component: () => null,
+        title: '工作流程',
+        routes: [
+            {
+                path: '/33/44',
+                name: '3344',
+                component: () => <div>44</div>,
             }
-            return routes
-        }, [] as JSX.Element[])
+        ]
+    },
+]
+
+export default function Routers() {
+    function RouteWithSubRoutes(route: IRoute) {
+        return (
+            <Route
+                path={route.path}
+                render={props => {
+                    const Com = route.component
+                    // pass the sub-routes down to keep nesting
+                    // @ts-ignore todo
+                    return <Com {...props} routes={route.routes}/>
+                }
+                }
+            />
+        );
     }
+
     return <>
-        <Router>
-            <Switch>
-                <RouteMap routes={routes} {...props}/>
-            </Switch>
-        </Router>
+        <Switch>
+            {routes.map((route, i) => (
+                <RouteWithSubRoutes key={i} {...route} />
+            ))}
+        </Switch>
     </>
 }
