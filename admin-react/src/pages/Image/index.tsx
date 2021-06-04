@@ -113,7 +113,7 @@ const ImgOpen: FunctionComponent = () => {
    * delay:延迟多长时间
    * mustRun:至少多长时间触发一次
    */
-  const throttle = function (fn: Function, delay: number, mustRun: number) {
+  const throttle = function (fn: any, delay: number, mustRun: number) {
     let previous: number, timer: number;
     return function (...args: any[]) {
       const now = Number(new Date());
@@ -217,7 +217,6 @@ const ImgOpen: FunctionComponent = () => {
 
   //为touchMove函数节流
   const fn = (e: React.TouchEvent<HTMLDivElement>) => {
-    // @ts-ignore
     throttle(touchMove(e), 10, 10)
   };
 
