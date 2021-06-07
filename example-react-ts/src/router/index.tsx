@@ -48,18 +48,11 @@ export const routes: IRoute[] = [
         title: '工作流程'
     },
     {
-        path: '/33',
-        name: '33',
-        component: () => null,
-        title: '工作流程',
-        routes: [
-            {
-                path: '/33/44',
-                name: '3344',
-                component: () => <div>44</div>,
-            }
-        ]
-    },
+        path: '/errorBoundary',
+        name: 'ErrorBoundary',
+        component: React.lazy(()=> import('../pages/errorPage')),
+        title: '异常边界'
+    }
 ]
 
 export default function Routers() {

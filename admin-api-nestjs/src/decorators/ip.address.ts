@@ -2,9 +2,9 @@ import { createParamDecorator, ExecutionContext } from '@nestjs/common';
 import { Request } from 'express';
 
 /**
- * @Author: 水痕
+ * @Author: 冰洋
  * @Date: 2021-03-22 11:41:12
- * @LastEditors: 水痕
+ * @LastEditors: 冰洋
  * @Description: 从请求头中获取ip地址，需要配置nginx才能拿到ip
  * @param {*} createParamDecorator
  * @return {*}

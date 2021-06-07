@@ -26,6 +26,6 @@ module.exports = source => {
         return <div className="mdx_parser" dangerouslySetInnerHTML={{__html:${html}}}></div>
     }
     `
-    console.log(code)
+    // console.log(code)
     return code
 }

@@ -5,7 +5,7 @@ import { Repository } from 'typeorm';
 import { AccessEntity } from '@src/modules/admin/system/access/entities/access.entity';
 import adminConfig from '@src/config/admin.config';
 import { ObjectType } from '@src/types/obj-type';
-
+const PREFIX = process.env.PREFIX || '';
 @Injectable()
 export class InitDbService {
   constructor(
@@ -22,9 +22,9 @@ export class InitDbService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-05 21:56:38
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 初始化账号
    * @param {*}
    * @return {*}
@@ -40,9 +40,9 @@ export class InitDbService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-05 21:56:56
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 初始化资源
    * @param {*}
    * @return {*}
@@ -78,7 +78,7 @@ export class InitDbService {
         sort: 5,
       },
       {
-        url: '/api/v1/admin/account',
+        url: PREFIX + '/admin/account',
         parentId: '2',
         type: 3,
         sort: 1,
@@ -86,7 +86,7 @@ export class InitDbService {
         method: 'GET',
       },
       {
-        url: '/api/v1/admin/account',
+        url: PREFIX + '/admin/account',
         parentId: '2',
         type: 3,
         sort: 2,
@@ -94,7 +94,7 @@ export class InitDbService {
         method: 'POST',
       },
       {
-        url: '/api/v1/admin/account/*',
+        url: PREFIX + '/admin/account/*',
         parentId: '2',
         type: 3,
         sort: 3,
@@ -102,7 +102,7 @@ export class InitDbService {
         method: 'DELETE',
       },
       {
-        url: '/api/v1/admin/account/*',
+        url: PREFIX + '/admin/account/*',
         parentId: '2',
         type: 3,
         sort: 4,
