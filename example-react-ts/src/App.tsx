@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import StopWatch from './components/StopWatch'
 import Routers, {routes} from './router'
 import {

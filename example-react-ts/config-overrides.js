@@ -7,6 +7,8 @@ const {
     addWebpackModuleRule
 } = require('customize-cra');
 const path = require("path");
+const images = require('remark-images')
+const emoji = require('remark-emoji')
 module.exports = override(
     ...addBabelPlugins( // 支持装饰器
         [
@@ -19,18 +21,24 @@ module.exports = override(
     //     libraryDirectory: 'es',
     //     style: true  //自动打包相关的样式 默认为 style:'css',这里需要改为true
     // }),
+
+    // md文件
     addWebpackModuleRule({
         test: /\.md$/,
         use: './loader/md.loader'
     }),
     addWebpackModuleRule({
+        test: /\.mdxx$/,
+        use: ['babel-loader', './loader/mdx.loader']
+    }),
+    addWebpackModuleRule({
         test: /\.mdx$/,
-        use: [{
-            loader:'babel-loader',
+        use: ['babel-loader',  {
+            loader: '@mdx-js/loader',
             options: {
-                presets:['@babel/preset-react']
+                remarkPlugins: [images, emoji]
             }
-        }, './loader/mdx.loader']
+        }]
     }),
     addLessLoader({
 
@@ -69,6 +77,7 @@ module.exports = override(
         // })
         //
         // console.log(loaders[8])
+        config.node.fs = 'empty'
         return config
     }
 )

@@ -18,6 +18,8 @@
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "remark-emoji": "^2.2.0",
+    "remark-images": "^2.0.0",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -31,7 +33,12 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "@typescript-eslint/no-unused-vars": [
+        "off"
+      ]
+    }
   },
   "browserslist": {
     "production": [
@@ -48,6 +55,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
+    "@mdx-js/loader": "^1.6.22",
     "@types/marked": "^2.0.2",
     "@types/react-router-dom": "^5.1.7",
     "babel-loader": "^8.2.2",

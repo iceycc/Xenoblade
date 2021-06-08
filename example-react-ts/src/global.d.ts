@@ -13,3 +13,7 @@ declare module "*.mdx" {
     export default classes;
 }
 
+declare module "*.mdxx" {
+    const classes: any;
+    export default classes;
+}

@@ -13,7 +13,17 @@ interface ErrorBoundaryProps {
     onError?: (error: Error, info: string) => void;
 }
 
+export declare function FallbackRender (props: FallbackProps): FallbackElement;
+
+
 // 本组件 ErrorBoundary 的 props
+interface ErrorBoundaryProps {
+    fallback?: FallbackElement; // 一段 ReactElement
+    FallbackComponent?: React.ComponentType<FallbackProps>; // Fallback 组件
+    fallbackRender?: typeof FallbackRender; // 渲染 fallback 元素的函数
+    onError?: (error: Error, info: string) => void;
+}
+// 本组件 ErrorBoundary 的 states
 interface ErrorBoundaryState {
     error: Error | null; // 将 hasError 的 boolean 改为 Error 类型，提供更丰富的报错信息
 }
@@ -37,16 +47,29 @@ class ErrorBoundary extends React.Component<React.PropsWithChildren<ErrorBoundar
     }
 
     render() {
-        const {fallback} = this.props;
-        const {error} = this.state;
+            const {fallback, FallbackComponent, fallbackRender} = this.props;
+            const {error} = this.state;
 
-        if (error !== null) {
-            if (React.isValidElement(fallback)) {
-                return fallback;
+            // 多种 fallback 的判断
+            if (error !== null) {
+                const fallbackProps: FallbackProps = {
+                    error,
+                }
+                // 判断 fallback 是否为合法的 Element
+                if (React.isValidElement(fallback)) {
+                    return fallback;
+                }
+                // 判断 render 是否为函数
+                if (typeof fallbackRender === 'function') {
+                    return (fallbackRender as typeof FallbackRender)(fallbackProps);
+                }
+                // 判断是否存在 FallbackComponent
+                if (FallbackComponent) {
+                    return <FallbackComponent {...fallbackProps} />
+                }
+
+                throw new Error('ErrorBoundary 组件需要传入 fallback, fallbackRender, FallbackComponent 其中一个');
             }
-
-            throw new Error('ErrorBoundary 组件需要传入 fallback');
-        }
 
         return this.props.children;
     }

@@ -9,9 +9,9 @@ import {
 import MdEditor from '../pages/MdEditor'
 import MdRender from '../pages/MdRender'
 import WorkFlow from '../pages/WorkFlow'
-import okMd from '../pages/Mdx/ok.mdx'
+import okMdxx from '../pages/Mdxx/ok.mdxx'
 import * as React from "react";
-
+import ExampleMdx from '../pages/Mdx/exmple.mdx'
 
 interface IRoute {
     path: string
@@ -24,9 +24,15 @@ interface IRoute {
 
 export const routes: IRoute[] = [
     {
+        path: '/mdxxParse',
+        name: 'mdxxParse',
+        component: okMdxx,
+        title: 'mdxx解析'
+    },
+    {
         path: '/mdxParse',
         name: 'mdxParse',
-        component: okMd,
+        component: ExampleMdx,
         title: 'mdx解析'
     },
     {
@@ -39,7 +45,7 @@ export const routes: IRoute[] = [
         path: '/MdRender',
         name: 'MdRender',
         component: MdRender,
-        title: 'markdown编译器'
+        title: 'md转string'
     },
     {
         path: '/workFlow',

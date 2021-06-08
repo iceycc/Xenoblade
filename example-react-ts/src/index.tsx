@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'highlight.js/styles/github.css'
+import { Suspense } from 'react';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <Suspense fallback={<div>...</div>}>
+        <App />
+    </Suspense>
+  // </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
