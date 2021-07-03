@@ -1,0 +1,40 @@
+.bg-default.data-v-1477ce89 {
+  background-color: #fa436a;
+  color: #fff;
+}
+.text-default.data-v-1477ce89 {
+  color: #fa436a;
+}
+.cu-item .title.data-v-1477ce89 {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.action button.data-v-1477ce89 {
+  width: 200rpx !important;
+  font-size: 24rpx;
+  color: #fff;
+}
+.card-menu.data-v-1477ce89 {
+  margin: 0 !important;
+  padding-top: 20rpx;
+}
+.cell_box.data-v-1477ce89 {
+  padding-top: 20rpx;
+}
+.exit.data-v-1477ce89 {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size: 30rpx;
+  position: fixed;
+  left: 0;
+  bottom: 50rpx;
+}
+
+
+page{
+	background-color: #F8F8F8!important;
+}
+

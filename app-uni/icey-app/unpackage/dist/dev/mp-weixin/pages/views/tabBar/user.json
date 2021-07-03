@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的",
+  "onReachBottomDistance": 50,
+  "navigationBarBackgroundColor": "#0081ff",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "list-cell": "/pages/commponent/user/list-cell",
+    "my-server": "/pages/commponent/user/my-server"
+  }
+}

@@ -160,9 +160,17 @@ class MyMsgAdapter implements MsgAdapter {
   renderOutTextMsg(inMsg: InMsg, content?: string): Promise<OutTextMsg> {
     return Promise.resolve(undefined);
   }
+
+  processInWxVerifyDispatchEvent(inMsg: InMsg, content?: string): Promise<OutTextMsg> {
+    return Promise.resolve(undefined);
+  }
+  processInMassEvent(inMsg: InMsg, content?: string): Promise<OutTextMsg> {
+    return Promise.resolve(undefined);
+  }
 }
 
 export class MsgController extends MyMsgAdapter {
+
   async processInTextMsg(inTextMsg: InTextMsg): Promise<OutMsg> {
     let outMsg: any;
     let content = '欢迎关注公众号 \n\n 很高兴认识你！';
@@ -301,6 +309,16 @@ export class MsgController extends MyMsgAdapter {
   }
 
   async renderOutTextMsg(inMsg: InMsg, content?: string): Promise<OutTextMsg> {
+    const outMsg = new OutTextMsg(inMsg);
+    outMsg.setContent(content ? content : ' ');
+    return outMsg;
+  }
+  async processInWxVerifyDispatchEvent(inMsg: InMsg, content?: string): Promise<OutTextMsg> {
+    const outMsg = new OutTextMsg(inMsg);
+    outMsg.setContent(content ? content : ' ');
+    return outMsg;
+  }
+  async processInMassEvent(inMsg: InMsg, content?: string): Promise<OutTextMsg> {
     const outMsg = new OutTextMsg(inMsg);
     outMsg.setContent(content ? content : ' ');
     return outMsg;

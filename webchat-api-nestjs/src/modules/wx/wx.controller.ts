@@ -6,7 +6,7 @@ import { ApiConfigKit, WeChat, ICache } from 'tnwx';
 import { MsgController } from 'src/utils/messageAdapter';
 import { WxinitGuard } from 'src/guard/wxinit.guard';
 
-@Controller()
+@Controller('wx')
 export class WxController {
   constructor(
     private readonly server: WxService,
@@ -38,12 +38,6 @@ export class WxController {
     return this.server.getWxToken(query);
   }
 
-  @Get('/wx')
-  get(
-    @Query() query: ObjectType,
-  ) {
-    return this.server.initWxToken(query);
-  }
 
   @Post('/wx')
   @UseGuards(WxinitGuard)
@@ -70,7 +64,7 @@ export class WxController {
       // 处理消息并响应对应的回复
       console.log(msgXml);
       // ...
-      const data =await WeChat.handleMsg(new MsgController(), msgXml, msgSignature as string, timestamp as string, nonce as string);
+      const data = await WeChat.handleMsg(new MsgController(), msgXml, msgSignature as string, timestamp as string, nonce as string);
 
       res.send(data);
     });
@@ -89,5 +83,13 @@ export class WxController {
     console.log(res);
     return res;
   }
+
+  @Get()
+  get(
+    @Query() query: ObjectType,
+  ) {
+    return this.server.initWxToken(query);
+  }
+
 }
 

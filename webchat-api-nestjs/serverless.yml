@@ -1,0 +1,23 @@
+#应用配置
+app: my-nest2-5eeb0a2a # (可选) 应用名称，默认为与组件实例名称
+stage: dev # (可选)  用于开发环境的隔离，默认为 dev
+
+#组件配置
+component: nestjs # (必填) 组件名称，在该项目中为nestjs.
+name: my-nest2 # (必填) 组件实例名称.
+
+#组件参数
+inputs:
+  src:
+    src: ./ # (可选) 代码路径
+    exclude:
+      - .env
+      - node_modules
+  functionName: nestjsDemo
+  region: ap-guangzhou
+  runtime: Nodejs10.15
+  apigatewayConf:
+    protocols:
+      - http
+      - https
+    environment: release

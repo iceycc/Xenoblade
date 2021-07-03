@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "全部标签",
+  "usingComponents": {
+    "u-line": "/uview-ui/components/u-line/u-line"
+  }
+}

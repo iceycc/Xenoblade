@@ -1,0 +1,114 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 7,
+            "musicdesc": "恬静冬夜",
+            "resdesc": "在恬静的雪夜中\n来到你向往的温馨小屋\n你感到无比的温暖与舒适\n安心的进入甜美梦境",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_001.png",
+            "musicurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_001.mp3",
+            "musiclength": 901,
+            "music_play_count": 3469,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 7
+        },
+        {
+            "id": 8,
+            "musicdesc": "自由深海",
+            "resdesc": "化作一条自由自在的鱼儿\n在蔚蓝的深海里\n跟随你的守护天使\n一同游向深沉的睡梦中",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_002.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 1836,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 8
+        },
+        {
+            "id": 9,
+            "musicdesc": "深山幽谷",
+            "resdesc": "来到幽静深山\n感受万物生长的活力\n芬芳的气息洗涤你的身心\n平静而安稳的进入睡眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_003.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 1530,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 9
+        },
+        {
+            "id": 10,
+            "musicdesc": "雪夜煮茶",
+            "resdesc": "寒风凛冽的冬夜\n一壶热茶 温暖身心\n享受此刻的宁静与幸福\n与脚边的猫儿相伴进入香甜美梦",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_004.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 1734,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 10
+        },
+        {
+            "id": 11,
+            "musicdesc": "沙滩吉他",
+            "resdesc": "静静的躺在柔软沙滩上\n落日的光辉温暖全身\n伴着美妙柔和的吉他乐曲\n安然入睡",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_005.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 3214,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 11
+        },
+        {
+            "id": 51,
+            "musicdesc": "雨后城市",
+            "resdesc": "经过大雨冲洗的城市\n空气格外清新\n疲惫与杂念渐渐消失\n轻松自在的沉入睡梦中",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_006.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 2295,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 51
+        },
+        {
+            "id": 55,
+            "musicdesc": "水乡木船",
+            "resdesc": "来到向往的江南水乡\n享受宁静与惬意\n随着水波的荡漾\n进入到深沉的睡梦中",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_007.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 1377,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 55
+        },
+        {
+            "id": 56,
+            "musicdesc": "宁静村庄",
+            "resdesc": "置身在安逸的乡村画卷\n微风带走你的焦躁与疲惫\n心灵平静而自由\n享受一夜好眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_008.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 1632,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 56
+        },
+        {
+            "id": 57,
+            "musicdesc": "畅游花海",
+            "resdesc": "来到一望无际的美丽花海\n睡意犹如花香般环绕\n带领你轻松安然的进入梦乡\n·尤其适合微凉以及寒冷的季节·",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/Dreamworld_009.png",
+            "musicurl": "",
+            "musiclength": 901,
+            "music_play_count": 1479,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 57
+        }
+    ]
+}

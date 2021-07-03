@@ -1,0 +1,19 @@
+.setting.data-v-16801878 {
+  padding: 20rpx 30rpx;
+  color: #666666;
+}
+.card.data-v-16801878 {
+  padding: 40rpx 0 0 0;
+}
+.card .title.data-v-16801878 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #000000;
+  padding: 10rpx 0;
+}
+
+
+page{
+	background-color: #F8F8F8!important;
+}
+

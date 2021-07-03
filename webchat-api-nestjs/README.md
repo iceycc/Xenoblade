@@ -19,3 +19,7 @@
 ## 公众号配置
 配置服务器
 配置白名单
+
+
+## severless-nest
+https://github.com/serverless-components/tencent-nestjs/tree/master/example

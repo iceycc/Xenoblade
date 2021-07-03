@@ -1,0 +1,90 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 19,
+            "musicdesc": "第一天 - 习惯和放松",
+            "resdesc": "建立良好的睡眠习惯\n学会快速放松技巧\n形成良好的睡眠规律 \n提高睡眠效率",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%AD%A6%E7%94%9F.jpg",
+            "musicurl": "https://res.psy-1.com/cosleep/miniapp/Student_001.mp3",
+            "musiclength": 706,
+            "music_play_count": 3112,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 19
+        },
+        {
+            "id": 20,
+            "musicdesc": "第二天 - 身心放松",
+            "resdesc": "放下对失眠的过度忧虑\n减少对睡眠的过度期待\n让身心恢复平静安定\n自然地进入睡眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%AD%A6%E7%94%9F.jpg",
+            "musicurl": "",
+            "musiclength": 1103,
+            "music_play_count": 2806,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 20
+        },
+        {
+            "id": 21,
+            "musicdesc": "第三天 - 应对情绪",
+            "resdesc": "在一呼一吸之中\n学会从容面对想法和负面情绪\n切断恶性循环\n安然进入睡梦当中",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%AD%A6%E7%94%9F.jpg",
+            "musicurl": "",
+            "musiclength": 858,
+            "music_play_count": 2142,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 21
+        },
+        {
+            "id": 22,
+            "musicdesc": "第四天 - 躯体放松",
+            "resdesc": "觉察并关注久坐的身体\n放松长期紧张僵硬的躯体\n释放紧绷的精神\n逐步进入安然的睡眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%AD%A6%E7%94%9F.jpg",
+            "musicurl": "",
+            "musiclength": 981,
+            "music_play_count": 1530,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 22
+        },
+        {
+            "id": 23,
+            "musicdesc": "第五天 - 平和心境",
+            "resdesc": "撒播慈爱与祝福之心\n化解人际关系所导致的苦恼与压力\n让内心重获温暖祥和\n安稳入眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%AD%A6%E7%94%9F.jpg",
+            "musicurl": "",
+            "musiclength": 844,
+            "music_play_count": 1938,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 23
+        },
+        {
+            "id": 24,
+            "musicdesc": "第六天 - 深度放松",
+            "resdesc": "运用自生练习\n帮助身心得到深度放松\n进入深度睡眠\n提高睡眠质量",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%AD%A6%E7%94%9F.jpg",
+            "musicurl": "",
+            "musiclength": 1001,
+            "music_play_count": 1734,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 24
+        },
+        {
+            "id": 25,
+            "musicdesc": "第七天 - 情景入睡",
+            "resdesc": "来到安谧的湖边草地\n远离繁杂的思绪\n享受久违的温暖与柔软\n恢复一夜好眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%AD%A6%E7%94%9F.jpg",
+            "musicurl": "",
+            "musiclength": 685,
+            "music_play_count": 2704,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 25
+        }
+    ]
+}

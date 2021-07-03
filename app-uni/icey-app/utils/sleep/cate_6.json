@@ -1,0 +1,138 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 34,
+            "musicdesc": "白云湖水 - 轻冥想",
+            "resdesc": "轻冥想系列之白云湖水\n适合平缓放松\n化作一朵白云随着微风\n自由飘于蓝天",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/白云湖水 - 轻冥想.jpg",
+            "musicurl": "https://res.psy-1.com/music/meditation_cloud_plus-oircnCvUgmT0q71F8oow.mp3",
+            "musiclength": 474,
+            "music_play_count": 2448,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 34
+        },
+        {
+            "id": 36,
+            "musicdesc": "冬日冥想 - 轻冥想",
+            "resdesc": "轻冥想系列之冬日冥想\n温暖放松地减压\n你坐在午后的藤椅上\n阳光倾洒进来",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/冬日冥想 - 轻冥想.jpg",
+            "musicurl": "https://res.psy-1.com/music/meditation_winter_plus-RkKUozizdQ4ka15bWGuU.mp3",
+            "musiclength": 230,
+            "music_play_count": 2091,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 36
+        },
+        {
+            "id": 37,
+            "musicdesc": "草原牧曲 - 轻冥想",
+            "resdesc": "轻冥想系列之草原牧曲\n适合放松减压\n在一片无垠的草原上\n悠扬的牧曲飘来",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/草原牧曲 - 轻冥想.jpg",
+            "musicurl": "https://res.psy-1.com/music/meditation_grassland_plus-gEvyoUjnjB1YKXZB4v1W.mp3",
+            "musiclength": 268,
+            "music_play_count": 1530,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 37
+        },
+        {
+            "id": 39,
+            "musicdesc": "雪景想象 - 轻冥想",
+            "resdesc": "轻冥想系列之雪景想象\n适合放松减压\n你站在隆冬时节的雪地上\n雪花飘飘洒洒",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/雪景想象 - 轻冥想.jpg",
+            "musicurl": "https://res.psy-1.com/music/meditation_snowy_plus-NJqjamNlePboShgpd2JP.mp3",
+            "musiclength": 196,
+            "music_play_count": 1785,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 39
+        },
+        {
+            "id": 35,
+            "musicdesc": "呼吸冥想 - 轻冥想",
+            "resdesc": "轻冥想系列之呼吸冥想\n适合静心放松\n舒适的坐着并挺直腰背\n双手掌心向上",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/呼吸冥想 - 轻冥想.jpg",
+            "musicurl": "https://res.psy-1.com/music/meditation_breathe_plus-uoVmeHHPCGn7ngD6RxIS.mp3",
+            "musiclength": 395,
+            "music_play_count": 2602,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 35
+        },
+        {
+            "id": 33,
+            "musicdesc": "麦田想像 - 轻冥想",
+            "resdesc": "轻冥想系列之麦田想象\n适合温暖放松\n走进一片金色的麦田中\n暖风轻抚脸颊",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/麦田想像 - 轻冥想.jpg",
+            "musicurl": "",
+            "musiclength": 438,
+            "music_play_count": 2346,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 33
+        },
+        {
+            "id": 41,
+            "musicdesc": "雨后湖泊 - 轻冥想",
+            "resdesc": "轻冥想系列之雨后湖泊\n适合减压放松\n来到一片碧绿的湖水边\n湖水是如此的澄净与平和",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/雨后湖泊 - 轻冥想.jpg",
+            "musicurl": "",
+            "musiclength": 320,
+            "music_play_count": 3520,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 41
+        },
+        {
+            "id": 42,
+            "musicdesc": "海上日出 - 轻冥想",
+            "resdesc": "轻冥想系列之海上日出\n用于喜悦正念\n看到海天的尽头\n一轮红日正在冉冉升起",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/海上日出 - 轻冥想.jpg",
+            "musicurl": "",
+            "musiclength": 310,
+            "music_play_count": 3520,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 42
+        },
+        {
+            "id": 43,
+            "musicdesc": "森林小溪 - 轻冥想",
+            "resdesc": "轻冥想系列之森林小溪\n用于冥想放松\n漫步在林间小道\n柔和的光线洒在脸上",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/森林小溪 - 轻冥想.jpg",
+            "musicurl": "",
+            "musiclength": 460,
+            "music_play_count": 1989,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 43
+        },
+        {
+            "id": 44,
+            "musicdesc": "海鸥想象 - 轻冥想",
+            "resdesc": "轻冥想系列之海鸥想象\n用于感恩正念\n化作一只洁白的海鸥\n翱翔于湛蓝的汪洋之上",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/海鸥想象 - 轻冥想.jpg",
+            "musicurl": "",
+            "musiclength": 337,
+            "music_play_count": 2397,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 44
+        },
+        {
+            "id": 45,
+            "musicdesc": "提高专注 - 轻冥想",
+            "resdesc": "轻冥想系列之提高专注\n适合学习前进行\n帮助平静心情\n提高专注力与记忆力",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/提高专注 - 轻冥想.jpg",
+            "musicurl": "",
+            "musiclength": 593,
+            "music_play_count": 1836,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 45
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "推广海报",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "loading": "/pages/commponent/public/loading"
+  }
+}

@@ -1,9 +1,13 @@
 import { Module, NestModule, MiddlewareConsumer, RequestMethod } from '@nestjs/common';
 import { WxModule } from './modules/wx/wx.module';
 import { LoggerMiddleware } from './middleware/logger.middleware';
+import { ClientModule } from './modules/client/client.module';
 
 @Module({
-  imports: [WxModule],
+  imports: [
+    WxModule,
+    ClientModule
+  ],
   controllers: [],
   providers: [],
 })

@@ -1,0 +1,1 @@
+<view class="nodata data-v-cf3c9586"><text class="iconfont icon-zanwushuju data-v-cf3c9586" style="{{('color:'+colors)}}"></text><view class="texts data-v-cf3c9586">{{''+title+''}}</view></view>

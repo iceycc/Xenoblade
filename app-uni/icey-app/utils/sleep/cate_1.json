@@ -1,0 +1,162 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 40,
+            "musicdesc": "478促眠 - 睡前呼吸法",
+            "resdesc": "睡眠Plus系列之478促眠呼吸\n循环：鼻子吸气4秒\n屏住气息7秒\n最后仅用嘴呼气8秒",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/478促眠 - 睡前呼吸法.jpg",
+            "musicurl": "https://res.psy-1.com/music/478silentsleep_plus-T1bg45KwAre2QjWgCoVR.mp3",
+            "musiclength": 402,
+            "music_play_count": 3061,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 40
+        },
+        {
+            "id": 26,
+            "musicdesc": "舒眠引导 - 睡前冥想",
+            "resdesc": "睡眠Plus系列之舒眠引导\n适合睡前进行\n在纯净海浪中呼吸放松\n进入甜美梦乡",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/舒眠引导 - 睡前冥想.jpg",
+            "musicurl": "",
+            "musiclength": 672,
+            "music_play_count": 2346,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 26
+        },
+        {
+            "id": 47,
+            "musicdesc": "意念助眠 - 睡前冥想",
+            "resdesc": "睡眠Plus系列之意念助眠\n适合睡前进行\n采用意念转圈法缓解焦虑\n快速进入睡眠状态",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/意念助眠 - 睡前冥想.jpg",
+            "musicurl": "",
+            "musiclength": 757,
+            "music_play_count": 2908,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 47
+        },
+        {
+            "id": 49,
+            "musicdesc": "完整舒眠 - 睡前引导",
+            "resdesc": "睡眠Plus系列之完整舒眠\n适合重度失眠患者\n专业的睡前腹式呼吸调整\n渐进式催眠放松",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/111.jpg",
+            "musicurl": "",
+            "musiclength": 1730,
+            "music_play_count": 5000,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 49
+        },
+        {
+            "id": 29,
+            "musicdesc": "焦虑消除 - 睡前冥想",
+            "resdesc": "睡眠Plus系列之焦虑消除\n适合焦虑型失眠\n减少不安情绪与噩梦频次\n提高睡眠质量\r",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/焦虑消除 - 睡前冥想.jpg",
+            "musicurl": "",
+            "musiclength": 1099,
+            "music_play_count": 3214,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 29
+        },
+        {
+            "id": 48,
+            "musicdesc": "噩梦缓解 - 睡前冥想",
+            "resdesc": "睡眠Plus系列之噩梦缓解\n适合睡前或噩梦后进行\n采用圣地冥想缓解噩梦多梦\n清除入眠的不良情绪",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%99%A9%E6%A2%A6%E7%BC%93%E8%A7%A3%20-%20%E5%9C%A3%E5%9C%B0%E5%86%A5%E6%83%B3.jpg",
+            "musicurl": "",
+            "musiclength": 1261,
+            "music_play_count": 2040,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 48
+        },
+        {
+            "id": 38,
+            "musicdesc": "晨间振奋 - 冥想音乐",
+            "resdesc": "睡眠Plus系列之晨间振奋\n适合精力唤醒\n专业的能量激活纯音乐\n让你精力满满",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/晨间振奋 - 冥想音乐.jpg",
+            "musicurl": "https://res.psy-1.com/music/moring_inspire_plus-U29aRQUzApvcSMC4ixxh.mp3",
+            "musiclength": 294,
+            "music_play_count": 2908,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 38
+        },
+        {
+            "id": 46,
+            "musicdesc": "完整午休 - 午间休息引导",
+            "resdesc": "睡眠Plus系列之完整午休\n适合午间放松\n渐进式放松和深化引导法\n帮助身心彻底休息",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/完整午休 - 午间休息.jpg",
+            "musicurl": "",
+            "musiclength": 2004,
+            "music_play_count": 2244,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 46
+        },
+        {
+            "id": 27,
+            "musicdesc": "高效午休 - 午间休息引导",
+            "resdesc": "睡眠Plus系列之高效午休\n适合午间放松\n释放疲劳并提高午休效率\n帮助恢复精力",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/高效午休 - 午间休息引导.jpg",
+            "musicurl": "",
+            "musiclength": 809,
+            "music_play_count": 2397,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 27
+        },
+        {
+            "id": 28,
+            "musicdesc": "护眼放松 - 眼部运动引导",
+            "resdesc": "冥想系列之护眼放松\n科学的眼球运动\n改善眼部疲劳与酸涩症状\n预防假性近视",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/护眼放松 - 眼部运动引导.jpg",
+            "musicurl": "",
+            "musiclength": 817,
+            "music_play_count": 3163,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 28
+        },
+        {
+            "id": 30,
+            "musicdesc": "交替放松- 去除焦虑",
+            "resdesc": "冥想系列之交替放松\n适合焦虑与恐惧情绪\n调节紧张与放松的躯体认知\n提高效率与睡眠质量",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E4%BA%A4%E6%9B%BF%E6%94%BE%E6%9D%BE%20-%20%E5%8E%BB%E9%99%A4%E7%84%A6%E8%99%91.jpg",
+            "musicurl": "",
+            "musiclength": 672,
+            "music_play_count": 3214,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 30
+        },
+        {
+            "id": 31,
+            "musicdesc": "压力舒缓 - 肌肉松弛法",
+            "resdesc": "肌肉松弛冥想之压力舒缓\n适合日常减压\n暂时摆脱令人困扰的情绪\n身心得到休息",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/压力舒缓 - 肌肉松弛法.jpg",
+            "musicurl": "",
+            "musiclength": 660,
+            "music_play_count": 2295,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 31
+        },
+        {
+            "id": 32,
+            "musicdesc": "冥想放松 - 深度冥想引导",
+            "resdesc": "深度冥想系列之冥想放松\n适合长期冥想者\n消除负面情绪与体内污浊\n找回内心喜悦",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/冥想放松 - 深度冥想引导.jpg",
+            "musicurl": "",
+            "musiclength": 1039,
+            "music_play_count": 3214,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 32
+        }
+    ]
+}

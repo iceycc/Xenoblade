@@ -1,0 +1,345 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "category_id": 1,
+            "category_name": "推荐",
+            "recommend_list": [
+                {
+                    "recommend_id": 1,
+                    "recommend_name": "夜雨促眠",
+                    "recommend_music": "https://huawei.psy-1.com/music/recommend/SleepFast-K3WQBtpibu91UpvKx0Re.mp3",
+                    "recommend_cover": "https://huawei.psy-1.com/music_recommend/web_recommend%E5%A4%9C%E9%9B%A8%E4%BF%83%E7%9C%A0.png",
+                    "recommend_bg": "https://huawei.psy-1.com/music/recommend/%E5%A4%9C%E9%9B%A8%E4%BF%83%E7%9C%A0-Vp8pADkLKJluEyfF3B3Y.jpg",
+                    "recommend_color": "#7080A2",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 2,
+                    "recommend_name": "脑波促眠",
+                    "recommend_music": "https://huawei.psy-1.com/music/recommend/StableSleep-ARVzlTWKHFyTaiPIOSw1.mp3",
+                    "recommend_cover": "https://huawei.psy-1.com/music_recommend/web_recommend%E8%84%91%E6%B3%A2%E5%8A%A9%E7%9C%A0.png",
+                    "recommend_bg": "https://huawei.psy-1.com/music/recommend/%E8%84%91%E6%B3%A2%E5%8A%A9%E7%9C%A0-hg6jLURBwPi84MJBRGOl.jpg",
+                    "recommend_color": "#77C36B",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 3,
+                    "recommend_name": "午后小憩",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/%E5%8D%88%E5%90%8E%E5%B0%8F%E6%86%A9.mp3",
+                    "recommend_cover": "https://huawei.psy-1.com/music_recommend/web_recommend%E5%8D%88%E5%90%8E%E5%B0%8F%E6%86%A9.png",
+                    "recommend_bg": "https://huawei.psy-1.com/music/recommend/%E5%8D%88%E5%90%8E%E5%B0%8F%E6%86%A9-jSe5iR8abvfXevkeufuH.jpg",
+                    "recommend_color": "#779060",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 4,
+                    "recommend_name": "活力早晨",
+                    "recommend_music": "https://huawei.psy-1.com/music/recommend/Energize-W9y1ovB9LOCXRsJ6RT37.mp3",
+                    "recommend_cover": "https://huawei.psy-1.com/music_recommend/web_recommend%E6%B4%BB%E5%8A%9B%E6%97%A9%E6%99%A8.jpg",
+                    "recommend_bg": "https://huawei.psy-1.com/music/recommend/%E6%B4%BB%E5%8A%9B%E6%97%A9%E6%99%A8-2FwSmjAqlhWdIxHvTWgP.jpg",
+                    "recommend_color": "#9D9298",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 87,
+                    "recommend_name": "抗噪专注",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Focus%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Focus%20%282%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/Focus%20%281%29.jpg",
+                    "recommend_color": "#cf8481",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 88,
+                    "recommend_name": "海滩放松",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/beach%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/beach%20%282%29.png",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/beach%20%281%29.jpg",
+                    "recommend_color": "#5aa4d5",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 89,
+                    "recommend_name": "缓解焦虑",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/anxiety%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/anxiety%20%281%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/anxiety%20%282%29.jpg",
+                    "recommend_color": "#2e9cb3",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 90,
+                    "recommend_name": "高效学习",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Learn%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Learn%20%281%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/Learn%20%282%29.jpg",
+                    "recommend_color": "#839178",
+                    "recommend_category_id": 1
+                },
+                {
+                    "recommend_id": 91,
+                    "recommend_name": "沉浸阅读",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/read%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/read%20%282%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/read%20%281%29.jpg",
+                    "recommend_color": "#4c6079",
+                    "recommend_category_id": 1
+                }
+            ]
+        },
+        {
+            "category_id": 2,
+            "category_name": "容易惊醒",
+            "recommend_list": [
+                {
+                    "recommend_id": 71,
+                    "recommend_name": "惊醒调理 Ⅰ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A0.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A0.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 2
+                },
+                {
+                    "recommend_id": 72,
+                    "recommend_name": "惊醒调理 Ⅱ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A1.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A1.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 2
+                },
+                {
+                    "recommend_id": 73,
+                    "recommend_name": "惊醒调理 Ⅲ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A2.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A2.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 2
+                },
+                {
+                    "recommend_id": 74,
+                    "recommend_name": "惊醒调理 Ⅳ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A3.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Frequent%20wake-ups%20%E2%85%A3.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 2
+                }
+            ]
+        },
+        {
+            "category_id": 3,
+            "category_name": "入睡困难",
+            "recommend_list": [
+                {
+                    "recommend_id": 79,
+                    "recommend_name": "入睡困难 Ⅰ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A0.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A0.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 3
+                },
+                {
+                    "recommend_id": 80,
+                    "recommend_name": "入睡困难 Ⅱ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A1.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A1.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 3
+                },
+                {
+                    "recommend_id": 81,
+                    "recommend_name": "入睡困难 Ⅲ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A2.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A2.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 3
+                },
+                {
+                    "recommend_id": 82,
+                    "recommend_name": "入睡困难 Ⅳ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A3.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Onset%20insomnia%20%E2%85%A3.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 3
+                }
+            ]
+        },
+        {
+            "category_id": 4,
+            "category_name": "睡眠破碎",
+            "recommend_list": [
+                {
+                    "recommend_id": 75,
+                    "recommend_name": "睡眠破碎 Ⅰ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A0.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A0.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 4
+                },
+                {
+                    "recommend_id": 76,
+                    "recommend_name": "睡眠破碎 Ⅱ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A1.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A1.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 4
+                },
+                {
+                    "recommend_id": 77,
+                    "recommend_name": "睡眠破碎 Ⅲ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A2.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A2.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 4
+                },
+                {
+                    "recommend_id": 78,
+                    "recommend_name": "睡眠破碎 Ⅳ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A3.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Fragmented%20sleep%20%E2%85%A3.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 4
+                }
+            ]
+        },
+        {
+            "category_id": 27,
+            "category_name": "多梦调理",
+            "recommend_list": [
+                {
+                    "recommend_id": 83,
+                    "recommend_name": "多梦调理 Ⅰ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Dream01%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Dream01%20%282%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/Dream01%20%281%29.jpg",
+                    "recommend_color": "#9194b5",
+                    "recommend_category_id": 27
+                },
+                {
+                    "recommend_id": 84,
+                    "recommend_name": "多梦调理 Ⅱ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Dream02%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Dream02%20%281%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/Dream02%20%282%29.jpg",
+                    "recommend_color": "#729acd",
+                    "recommend_category_id": 27
+                },
+                {
+                    "recommend_id": 85,
+                    "recommend_name": "多梦调理 Ⅲ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Dream03%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Dream03%20%281%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/Dream03%20%282%29.jpg",
+                    "recommend_color": "#fa8283",
+                    "recommend_category_id": 27
+                },
+                {
+                    "recommend_id": 86,
+                    "recommend_name": "多梦调理 Ⅳ",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Dream04%20%281%29.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Dream04%20%282%29.jpg",
+                    "recommend_bg": "https://res.psy-1.com/cosleep/miniapp/Dream04%20%281%29.jpg",
+                    "recommend_color": "#63aca3",
+                    "recommend_category_id": 27
+                }
+            ]
+        },
+        {
+            "category_id": 5,
+            "category_name": "宝宝专用",
+            "recommend_list": [
+                {
+                    "recommend_id": 67,
+                    "recommend_name": "宝妈宝爸专享",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Baby001.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Baby001.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 5
+                },
+                {
+                    "recommend_id": 68,
+                    "recommend_name": "<6月宝宝",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Baby002.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Baby002.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 5
+                },
+                {
+                    "recommend_id": 69,
+                    "recommend_name": "6-18月宝宝",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Baby003.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Baby003.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 5
+                },
+                {
+                    "recommend_id": 70,
+                    "recommend_name": "宝宝沐浴",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/Baby004.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/Baby004.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 5
+                }
+            ]
+        },
+        {
+            "category_id": 26,
+            "category_name": "诗意生活",
+            "recommend_list": [
+                {
+                    "recommend_id": 23,
+                    "recommend_name": "冥想静心",
+                    "recommend_music": "https://res.psy-1.com/cosleep/miniapp/%E5%86%A5%E6%83%B3%E9%9D%99%E5%BF%83.mp3",
+                    "recommend_cover": "https://huawei.psy-1.com/music/recommend/mingxiangjingxin-FtNpX5Hv8d26IWJwNLup.png",
+                    "recommend_bg": "https://huawei.psy-1.com/music/recommend/%E5%86%A5%E6%83%B3%E9%9D%99%E5%BF%83-CxNmSlMsC7iK3UiCHwH1.jpg",
+                    "recommend_color": "#45A3BC",
+                    "recommend_category_id": 26
+                },
+                {
+                    "recommend_id": 24,
+                    "recommend_name": "时雨入梦",
+                    "recommend_music": "https://res.psy-1.com/miniapp/recommend/1.mp3",
+                    "recommend_cover": "https://res.psy-1.com/miniapp/recommend/1.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/1_1.jpg",
+                    "recommend_color": "#648FC3",
+                    "recommend_category_id": 26
+                },
+                {
+                    "recommend_id": 25,
+                    "recommend_name": "江南雨巷",
+                    "recommend_music": "https://res.psy-1.com/miniapp/recommend/2.mp3",
+                    "recommend_cover": "https://res.psy-1.com/miniapp/recommend/2.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/2_2.jpg",
+                    "recommend_color": "#267FA2",
+                    "recommend_category_id": 26
+                },
+                {
+                    "recommend_id": 26,
+                    "recommend_name": "静谧黄昏",
+                    "recommend_music": "https://res.psy-1.com/miniapp/recommend/3.mp3",
+                    "recommend_cover": "https://res.psy-1.com/cosleep/miniapp/%E9%9D%99%E8%B0%A7%E9%BB%84%E6%98%8F.jpg",
+                    "recommend_bg": "https://res.psy-1.com/miniapp/recommend/3_3.jpg",
+                    "recommend_color": "#A26C6C",
+                    "recommend_category_id": 26
+                }
+            ]
+        }
+    ]
+}

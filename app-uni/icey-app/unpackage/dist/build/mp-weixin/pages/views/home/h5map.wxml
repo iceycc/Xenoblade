@@ -1,0 +1,1 @@
+<view class="map"><web-view src="https://apis.map.qq.com/tools/locpicker?search=1&type=1&key=7JFBZ-V2EH4-3CCU2-DL5N2-DZQL7-RTBOJ&referer=myapp"></web-view></view>

@@ -1,0 +1,17 @@
+.detail.data-v-bcb81410 {
+  padding: 10rpx 20rpx;
+}
+.detail .title.data-v-bcb81410 {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.u-content.data-v-bcb81410 {
+  margin-top: 50rpx;
+  color: #606266;
+  font-size: 32rpx;
+  line-height: 1.8;
+}
+.u-content ._p.data-v-bcb81410 {
+  color: #909399;
+}
+

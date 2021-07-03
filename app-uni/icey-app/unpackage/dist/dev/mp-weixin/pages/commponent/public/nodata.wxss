@@ -1,0 +1,22 @@
+.nodata.data-v-210d3e43 {
+  width: 100vw;
+  height: 50vw;
+}
+.nodata .iconfont.data-v-210d3e43 {
+  display: inline-block;
+  text-align: center;
+  font-size: 160rpx;
+  color: pink;
+  width: 100%;
+  margin-top: 100rpx;
+}
+.texts.data-v-210d3e43 {
+  margin-top: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #9c9c9c;
+  font-size: 24rpx;
+  letter-spacing: 5rpx;
+}
+

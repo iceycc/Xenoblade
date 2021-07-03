@@ -1,0 +1,90 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 1,
+            "musicdesc": "缓解焦虑 · 促进睡眠",
+            "resdesc": "治疗音乐系列之缓解焦虑\n融入大自然的频率\n提高睡眠质量\n平静内心，预防衰老",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/voice/432hz.png",
+            "musicurl": "https://res.psy-1.com/cosleep/miniapp/01.mp3",
+            "musiclength": 709,
+            "music_play_count": 2142,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 1
+        },
+        {
+            "id": 2,
+            "musicdesc": "减少痛感 · 天然的麻醉剂",
+            "resdesc": "治疗音乐系列之缓解疼痛\n超低频脑波麻醉痛感神经\n搭配呼吸与冥想，效果更佳\n强烈建议佩戴耳机聆听",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/voice/174hz.png",
+            "musicurl": "",
+            "musiclength": 753,
+            "music_play_count": 2244,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 2
+        },
+        {
+            "id": 3,
+            "musicdesc": "解放愧疚 · 改善恐惧与哀伤",
+            "resdesc": "治疗音乐系列之改善情绪\n改善恐惧，减轻愧疚与哀伤\n放下紧绷的防御机制\n减轻不良情绪的困扰",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/voice/396hz.png",
+            "musicurl": "",
+            "musiclength": 886,
+            "music_play_count": 1938,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 3
+        },
+        {
+            "id": 4,
+            "musicdesc": "促进改变 · 清理创伤影响",
+            "resdesc": "治疗音乐系列之促进改变\n清理创伤经历的影响\n获得改变的能量\n面对过去，焕然新生",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/voice/417hz.png",
+            "musicurl": "",
+            "musiclength": 793,
+            "music_play_count": 1683,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 4
+        },
+        {
+            "id": 5,
+            "musicdesc": "修复DNA · 增加生命能量",
+            "resdesc": "治疗音乐系列之生命能量\n促进DNA修复的频率\n清醒头脑，为身心注入新鲜能量\n提升觉察力与创造力",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/voice/528hz.png",
+            "musicurl": "",
+            "musiclength": 723,
+            "music_play_count": 2755,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 5
+        },
+        {
+            "id": 6,
+            "musicdesc": "沟通联结 · 缓和人际紧张",
+            "resdesc": "治疗音乐系列之人际联结\n鼓励身体与外界交流\n促进与他人的沟通及连接\n从而唤醒爱的能力",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/voice/639hz.png",
+            "musicurl": "",
+            "musiclength": 681,
+            "music_play_count": 1989,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 6
+        },
+        {
+            "id": 50,
+            "musicdesc": "放下评判 · 无忧安眠",
+            "resdesc": "治疗音乐系列之无忧安眠\n帮助你隔断外界的影响\n放下所有的评判与想法\n安心的进入深层睡眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/396hz+4hz+pink.png",
+            "musicurl": "",
+            "musiclength": 826,
+            "music_play_count": 1428,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 50
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 12,
+            "musicdesc": "第一天 - 准备",
+            "resdesc": "练习专注呼吸\n让自己从繁杂的思绪中抽离出来\n平息焦虑 释放身心\n从容面对压力与睡眠困扰",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%8E%8B%E5%8A%9B.jpg",
+            "musicurl": "https://res.psy-1.com/cosleep/miniapp/Stress_001.mp3",
+            "musiclength": 549,
+            "music_play_count": 1530,
+            "needvip": 0,
+            "func_type": 20,
+            "func_id": 12
+        },
+        {
+            "id": 13,
+            "musicdesc": "第二天 - 觉察想法和放松",
+            "resdesc": "练习觉察想法\n并不带评判的接纳\n减轻自我负面认知的影响\n寻回安全的睡意",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%8E%8B%E5%8A%9B.jpg",
+            "musicurl": "",
+            "musiclength": 961,
+            "music_play_count": 3469,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 13
+        },
+        {
+            "id": 14,
+            "musicdesc": "第三天 - 星空想象",
+            "resdesc": "练习提升自信\n加强对自己的控制感与减轻压力\n享受美好的静谧时光\n获得稳定安心的睡眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%8E%8B%E5%8A%9B.jpg",
+            "musicurl": "",
+            "musiclength": 706,
+            "music_play_count": 2959,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 14
+        },
+        {
+            "id": 15,
+            "musicdesc": "第四天 - 自我同情",
+            "resdesc": "练习觉察并释放压抑的情绪\n正视压力的存在\n有助于平复心境\n减少多梦噩梦",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%8E%8B%E5%8A%9B.jpg",
+            "musicurl": "",
+            "musiclength": 886,
+            "music_play_count": 3469,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 15
+        },
+        {
+            "id": 16,
+            "musicdesc": "第五天 - 想象放松",
+            "resdesc": "通过美好想象\n舒缓紧绷的神经\n排解烦恼与焦虑\n享受无忧无虑的安稳睡眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%8E%8B%E5%8A%9B.jpg",
+            "musicurl": "",
+            "musiclength": 791,
+            "music_play_count": 2142,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 16
+        },
+        {
+            "id": 17,
+            "musicdesc": "第六天 - 卸下防备",
+            "resdesc": "练习卸下对压力的防备\n开放的承认与接纳不良情绪\n在呼吸中清扫疲惫\n从容应对失眠",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%8E%8B%E5%8A%9B.jpg",
+            "musicurl": "",
+            "musiclength": 972,
+            "music_play_count": 1530,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 17
+        },
+        {
+            "id": 18,
+            "musicdesc": "第七天 - 创造友好氛围",
+            "resdesc": "培养积极体验的能力\n友善的感受与拥抱生命\n让温暖与柔软充盈全身\n摆脱失眠的困扰",
+            "resurl": "https://res.psy-1.com/cosleep/miniapp/%E5%8E%8B%E5%8A%9B.jpg",
+            "musicurl": "",
+            "musiclength": 921,
+            "music_play_count": 2193,
+            "needvip": 1,
+            "func_type": 20,
+            "func_id": 18
+        }
+    ]
+}

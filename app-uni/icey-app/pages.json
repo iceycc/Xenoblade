@@ -1,0 +1,146 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+    "pages" : [
+        {
+            "path" : "pages/views/tabBar/home",
+            "style" : {
+                "navigationBarTitleText" : "程序员升职记",
+                "app-plus" : {
+                    "titleNView" : false,
+					"bounce":"none"
+                }
+            }
+        },
+		{
+		    "path" : "pages/views/tabBar/detail",
+		    "style" : {
+		        "navigationBarTitleText" : "",
+		        "app-plus" : {
+		            "titleNView" : false,
+					"bounce":"none"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/views/tabBar/cate",
+		    "style" : {
+		        "navigationBarTitleText" : "全部标签",
+		        "app-plus" : {
+		            "titleNView" : false,
+					"bounce":"none"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/views/home/tags",
+		    "style" : {
+		        "navigationBarTitleText" : "",
+		        "app-plus" : {
+		            "titleNView" : false,
+					"bounce":"none"
+		        }
+		    }
+		},
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationStyle" : "custom",
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "登录",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		{
+		    "path" : "pages/views/setting/about",
+		    "style" : {
+		        "navigationBarTitleText" : "关于我们",
+				"navigationBarBackgroundColor":"#F8F8F8"
+		    }
+		},
+		
+        {
+            "path" : "pages/views/tabBar/user",
+            "style" : {
+                "navigationBarTitleText" : "我的",
+                "onReachBottomDistance" : 50,
+                "navigationBarBackgroundColor" : "#0081ff",
+                "navigationBarTextStyle" : "white",
+                "app-plus" : {
+                    "titleNView" : false,
+                	"bounce":"none"
+                }
+            }
+        },
+        {
+            "path" : "pages/views/setting/index",
+            "style" : {
+                "navigationBarTitleText" : "设置"
+            }
+        },
+        {
+            "path" : "pages/views/user/extension",
+            "style" : {
+                "navigationBarTitleText" : "推广海报",
+				"navigationBarBackgroundColor":"#F8F8F8"
+            }
+        },
+        {
+            "path" : "pages/views/home/search",
+            "style" : {
+                "navigationBarTitleText" : "搜索",
+				"navigationBarBackgroundColor":"#F8F8F8"
+            }
+        },
+        {
+            "path" : "pages/views/home/h5map",
+            "style" : {
+                "navigationBarTitleText" : "选择位置",
+				"navigationBarBackgroundColor":"#F8F8F8"
+            }
+        }
+    ],
+    "style" : "v2",
+    "sitemapLocation" : "sitemap.json",
+    "tabBar" : {
+        "backgroundColor" : "#ffffff",
+        "borderStyle" : "white",
+        "selectedColor" : "#3B7A86",
+        "color" : "#666666",
+        "list" : [
+            {
+                "pagePath" : "pages/views/tabBar/home",
+                "iconPath" : "/static/images/tabBar/breath_default.png",
+                "selectedIconPath" : "/static/images/tabBar/breath_selected.png",
+                "text" : "首页"
+            },
+			// {
+			//     "pagePath" : "pages/views/tabBar/cate",
+			//     "iconPath" : "/static/images/tabBar/theme_default.png",
+			//     "selectedIconPath" : "/static/images/tabBar/theme_selected.png",
+			//     "text" : "分类"
+			// },
+            {
+                "pagePath" : "pages/views/tabBar/user",
+                "iconPath" : "/static/images/tabBar/my_default.png",
+                "selectedIconPath" : "/static/images/tabBar/my_selected.png",
+                "text" : "我的"
+            }
+        ]
+    },
+    "permission" : {
+        "scope.userLocation" : {
+            "desc" : "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "globalStyle" : {
+        "backgroundTextStyle" : "light",
+        "navigationBarBackgroundColor" : "#fff",
+        "navigationBarTitleText" : "Weixin",
+        "navigationBarTextStyle" : "black"
+    },
+    "subPackages" : []
+}

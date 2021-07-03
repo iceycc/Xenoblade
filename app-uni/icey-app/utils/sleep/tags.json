@@ -1,0 +1,90 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "tag_id": 1,
+            "tag_name": "全部",
+            "tag_icon": "",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 9,
+            "tag_name": "雷雨",
+            "tag_icon": "https://res.psy-1.com/music/img026_bgm@3x-QdAzrKqNDeOiVCNQTISC.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 14,
+            "tag_name": "江湖",
+            "tag_icon": "https://res.psy-1.com/music/img063_bgm@3x-UbCXLMh1EB42p9SFfylE.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 11,
+            "tag_name": "课堂",
+            "tag_icon": "https://res.psy-1.com/music/Breathstudy_img044_BGM-SHjvdcbx4KWN4fn7Xee8.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 2,
+            "tag_name": "自然",
+            "tag_icon": "https://res.psy-1.com/music-bucket/Breathstudy_img03_BGM.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 3,
+            "tag_name": "ASMR",
+            "tag_icon": "https://res.psy-1.com/music-bucket/Breathstudy_img08_BGM.png",
+            "tag_cover": "https://res.psy-1.com/cosleep/tinysleep_guide_asmr@3x.png",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 5,
+            "tag_name": "动物",
+            "tag_icon": "https://res.psy-1.com/music-bucket/Breathstudy_img15_BGM.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 4,
+            "tag_name": "旋律",
+            "tag_icon": "https://res.psy-1.com/music-bucket/Breathstudy_img14_BGM.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 8,
+            "tag_name": "脑波",
+            "tag_icon": "https://res.psy-1.com/music-bucket/Breathstudy_img25_BGM.png",
+            "tag_cover": "https://res.psy-1.com/tinysleep_guide_brianwave@3x.png",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 6,
+            "tag_name": "生活",
+            "tag_icon": "https://res.psy-1.com/music-bucket/Breathstudy_img19_BGM.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 7,
+            "tag_name": "城市",
+            "tag_icon": "https://res.psy-1.com/music/img024_bgm@3x-MSXWGR7ZFRjGZWXkoyYT.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        },
+        {
+            "tag_id": 10,
+            "tag_name": "宝宝",
+            "tag_icon": "https://res.psy-1.com/music/Breathstudy_img028_BGM-9hxppjrKXQN8THxrgkbi.png",
+            "tag_cover": "",
+            "tag_vip": 0
+        }
+    ]
+}

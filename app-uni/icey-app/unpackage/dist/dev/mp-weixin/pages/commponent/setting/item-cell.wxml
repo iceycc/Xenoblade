@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['navTo']]]]}}" class="item_cell data-v-b60d3a62" bindtap="__e"><view class="data-v-b60d3a62">{{''+cellname+''}}</view><block wx:if="{{showRight}}"><image src="/static/images/home/right.png" class="data-v-b60d3a62"></image></block></view>

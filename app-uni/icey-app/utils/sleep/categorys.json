@@ -1,0 +1,36 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "category_id": 1,
+            "category_name": "助眠引导",
+            "category_icon": "https://res.psy-1.com/cosleep/music/tag/1@3x.png"
+        },
+        {
+            "category_id": 2,
+            "category_name": "治疗音乐",
+            "category_icon": "https://res.psy-1.com/cosleep/music/tag/2@3x.png"
+        },
+        {
+            "category_id": 3,
+            "category_name": "每日梦境",
+            "category_icon": "https://res.psy-1.com/cosleep/music/tag/3@3x.png"
+        },
+        {
+            "category_id": 6,
+            "category_name": "轻冥想",
+            "category_icon": ""
+        },
+        {
+            "category_id": 4,
+            "category_name": "压力型失眠",
+            "category_icon": "https://res.psy-1.com/cosleep/music/tag/4@3x.png"
+        },
+        {
+            "category_id": 5,
+            "category_name": "学生入睡困难",
+            "category_icon": "https://res.psy-1.com/cosleep/music/tag/5@3x.png"
+        }
+    ]
+}

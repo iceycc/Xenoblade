@@ -1,0 +1,62 @@
+{
+    "status": 1,
+    "msg": "成功",
+    "data": [
+        {
+            "id": 57,
+            "musicdesc": "平静舒眠",
+            "musicurl": "https://private.psy-1.com/music/mix006-o8sW5bExnVot4zOGLoG1.mp3?e=1618993169&token=Wxe4Fvn8XfvDpkeUO0RVUj2Sz1E1KVi05wwZAr6x:05P3Rt28Fm8SXvuEHj0unSfDTo0=",
+            "needcoin": 0,
+            "resdesc": "",
+            "cover_miniapp_big": "https://res.psy-1.com/music/Breathstudy_img_06_250-kBDXXG7BE6qcqDsUCJA2.png",
+            "cover_miniapp_white": "https://res.psy-1.com/music/Breathstudy_img_06A@2x-1lctLQ3sjjOmPW9f9Wz7.png",
+            "cover_miniapp_black": "https://res.psy-1.com/music/Breathstudy_img_06@2x-PiPO4jW2EOYw8skz45b4.png",
+            "color_miniapp": "pink",
+            "is_asmr": 0,
+            "func_type": 7,
+            "func_id": 57
+        },
+        {
+            "id": 46,
+            "musicdesc": "身心放松",
+            "musicurl": "https://private.psy-1.com/music/mix003-9iY6ywt7UgivkEnaOFUw.mp3?e=1618993169&token=Wxe4Fvn8XfvDpkeUO0RVUj2Sz1E1KVi05wwZAr6x:JZTQsNAfYYT8-Yt8lLDlVjpPb0M=",
+            "needcoin": 0,
+            "resdesc": "",
+            "cover_miniapp_big": "https://res.psy-1.com/music/Breathstudy_img_03_250-EyHqepDiHOiIId5MbNtd.png",
+            "cover_miniapp_white": "https://res.psy-1.com/music/Breathstudy_img_03A@2x-a3DGh1tklaOix7m9OLvf.png",
+            "cover_miniapp_black": "https://res.psy-1.com/music/Breathstudy_img_03@2x-4FafJCM9OjczfC0vaZz5.png",
+            "color_miniapp": "pink",
+            "is_asmr": 0,
+            "func_type": 7,
+            "func_id": 46
+        },
+        {
+            "id": 29,
+            "musicdesc": "深度冥想",
+            "musicurl": "https://private.psy-1.com/music/mix002-AWZ5PgducPiPJnF52o37.mp3?e=1618993169&token=Wxe4Fvn8XfvDpkeUO0RVUj2Sz1E1KVi05wwZAr6x:mOw1ZpGm5KqWgUcDVevldLlVqJo=",
+            "needcoin": 0,
+            "resdesc": "",
+            "cover_miniapp_big": "https://res.psy-1.com/music/Breathstudy_img_02_250-j1jSkimBPYVNo1V193wN.png",
+            "cover_miniapp_white": "https://res.psy-1.com/music/Breathstudy_img_02A@2x-NtX9wYzgLOjHF0hrAFEx.png",
+            "cover_miniapp_black": "https://res.psy-1.com/music/Breathstudy_img_02@2x-C8l3pjnXEEbzQnfUK9SA.png",
+            "color_miniapp": "pink",
+            "is_asmr": 0,
+            "func_type": 7,
+            "func_id": 29
+        },
+        {
+            "id": 28,
+            "musicdesc": "深度睡眠",
+            "musicurl": "https://private.psy-1.com/music/mix001-aS0z9qaz97nDxdITUojf.mp3?e=1618993169&token=Wxe4Fvn8XfvDpkeUO0RVUj2Sz1E1KVi05wwZAr6x:pQesui25bxPo9x3CaXO2Ix8JRvs=",
+            "needcoin": 0,
+            "resdesc": "",
+            "cover_miniapp_big": "https://res.psy-1.com/music/Breathstudy_img_01_250-NsT1HjrGovg3zt37R9PL.png",
+            "cover_miniapp_white": "https://res.psy-1.com/music/Breathstudy_img_01A@2x-8hHeOGmThXTc1sS7xueT.png",
+            "cover_miniapp_black": "https://res.psy-1.com/music/Breathstudy_img_01@2x-j3oMPpB0kRfsGAbDfywa.png",
+            "color_miniapp": "pink",
+            "is_asmr": 0,
+            "func_type": 7,
+            "func_id": 28
+        }
+    ]
+}
