@@ -11313,15 +11313,20 @@ function request(_ref)
 
 {var url = _ref.url,method = _ref.method,params = _ref.params,_ref$type = _ref.type,type = _ref$type === void 0 ? 'default' : _ref$type;
   return new Promise(function (resove, reject) {
+    uni.showLoading({
+      title: '加载中...' });
+
     uni.request({
       url: _contant.BaseURl[type] + url,
       method: method,
       data: params,
       success: function success(respones) {
+        uni.hideLoading();
         console.log('respones----------', respones);
         resove(respones.data);
       },
       fail: function fail(err) {
+        uni.hideLoading();
         reject(err);
       } });
 
@@ -11347,7 +11352,7 @@ var BaseURl = function () {
   var Conifgs = {
     develop: {
       // default: 'https://service-fkl7zd0u-1256800654.gz.apigw.tencentcs.com/release',
-      default: 'http://localhost:9123' },
+      default: 'https://service-fkl7zd0u-1256800654.gz.apigw.tencentcs.com/release' },
 
     trial: {
       default: 'https://service-fkl7zd0u-1256800654.gz.apigw.tencentcs.com/release' },
@@ -17928,14 +17933,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 165 */,
 /* 166 */,
 /* 167 */,
-/* 168 */,
-/* 169 */,
-/* 170 */,
-/* 171 */,
-/* 172 */,
-/* 173 */,
-/* 174 */,
-/* 175 */
+/* 168 */
 /*!*************************************************************************************************************!*\
   !*** /Users/bingyang/Documents/Xenoblade/app-uni/icey-app/uview-ui/components/u-parse/libs/MpHtmlParser.js ***!
   \*************************************************************************************************************/
@@ -17949,9 +17947,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
  * @author JinYufeng
  * @listens MIT
  */
-var cfg = __webpack_require__(/*! ./config.js */ 176),
+var cfg = __webpack_require__(/*! ./config.js */ 169),
 blankChar = cfg.blankChar,
-CssHandler = __webpack_require__(/*! ./CssHandler.js */ 177),
+CssHandler = __webpack_require__(/*! ./CssHandler.js */ 170),
 windowWidth = uni.getSystemInfoSync().windowWidth;
 var emoji;
 
@@ -18525,7 +18523,7 @@ module.exports = MpHtmlParser;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 176 */
+/* 169 */
 /*!*******************************************************************************************************!*\
   !*** /Users/bingyang/Documents/Xenoblade/app-uni/icey-app/uview-ui/components/u-parse/libs/config.js ***!
   \*******************************************************************************************************/
@@ -18614,14 +18612,14 @@ if (wx.canIUse('editor')) {
 module.exports = cfg;
 
 /***/ }),
-/* 177 */
+/* 170 */
 /*!***********************************************************************************************************!*\
   !*** /Users/bingyang/Documents/Xenoblade/app-uni/icey-app/uview-ui/components/u-parse/libs/CssHandler.js ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var cfg = __webpack_require__(/*! ./config.js */ 176),
+var cfg = __webpack_require__(/*! ./config.js */ 169),
 isLetter = function isLetter(c) {return c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z';};
 
 function CssHandler(tagStyle) {

@@ -19,9 +19,9 @@ export class LoginService {
   ) {}
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-22 11:57:32
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 后台管理用户登录
    * @param {LoginDto} loginDto
    * @param {string} ipAddress

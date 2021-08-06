@@ -24,9 +24,9 @@ export class AccountService {
   ) {}
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 08:36:42
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 创建账号
    * @param {CreateAccountDto} createAccountDto
    * @return {*}
@@ -71,9 +71,9 @@ export class AccountService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-02 21:22:21
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据用户id重置为默认密码
    * @param {*}
    * @return {*}
@@ -92,9 +92,9 @@ export class AccountService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 09:01:05
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据id删除账号
    * @param {number} id
    * @return {*}
@@ -114,9 +114,9 @@ export class AccountService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 11:12:40
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据账号id修改密码
    * @param {number} id
    * @param {ModifyPasswordDto} modifyPasswordDto
@@ -150,9 +150,9 @@ export class AccountService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 10:57:46
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据账号id修改账号信息
    * @param {number} id
    * @param {UpdateAccountDto} updateAccountDto
@@ -171,9 +171,9 @@ export class AccountService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 11:56:52
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据账号id查询账号信息
    * @param {number} id
    * @return {*}
@@ -183,9 +183,9 @@ export class AccountService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 13:02:35
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据条件查询账号列表
    * @param {AccountReqDto} accountReqDto
    * @return {*}

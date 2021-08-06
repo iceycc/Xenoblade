@@ -7,7 +7,7 @@ export const BaseURl = (() => {
 	const Conifgs = {
 		develop: {
 			// default: 'https://service-fkl7zd0u-1256800654.gz.apigw.tencentcs.com/release',
-			default: 'http://localhost:9123',
+			default: 'https://service-fkl7zd0u-1256800654.gz.apigw.tencentcs.com/release',
 		},
 		trial: {
 			default: 'https://service-fkl7zd0u-1256800654.gz.apigw.tencentcs.com/release',

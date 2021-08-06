@@ -18,9 +18,9 @@ export class MenusService {
   ) {}
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 14:43:40
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 获取菜单列表
    * @param {ICurrentUserType} userInfo
    * @return {*}
@@ -82,9 +82,9 @@ export class MenusService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-07 16:45:11
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 格式化返回菜单
    * @param {AccessEntity} accessList
    * @return {*}

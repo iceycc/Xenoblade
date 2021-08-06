@@ -1,5 +1,6 @@
 import G6, {Graph} from '@antv/g6';
 import ReactDOM from 'react-dom';
+import * as React from 'react';
 import {useEffect, useRef} from 'react';
 import {data} from './data'
 export default function WorkFlow(props: any) {

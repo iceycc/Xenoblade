@@ -41,7 +41,6 @@ module.exports = override(
         }]
     }),
     addLessLoader({
-
         lessOptions: {
             strictMath: true,
             noIeCompat: true,

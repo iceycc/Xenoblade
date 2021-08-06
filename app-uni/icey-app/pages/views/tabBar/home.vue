@@ -103,6 +103,7 @@
 			};
 		},
 		onLoad() {
+		
 			this.initParams()
 			this.getCategory()
 		},

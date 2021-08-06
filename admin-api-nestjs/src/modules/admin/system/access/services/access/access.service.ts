@@ -19,9 +19,9 @@ export class AccessService {
   ) {}
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 08:23:35
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 创建资源
    * @param {CreateAccessDto} createAccessDto
    * @return {*}
@@ -52,9 +52,9 @@ export class AccessService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 09:00:48
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据资源id删除资源
    * @param {number} id
    * @return {*}
@@ -90,9 +90,9 @@ export class AccessService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 12:36:51
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据资源id修改资源
    * @param {number} id
    * @param {UpdateAccessDto} updateAccessDto
@@ -113,9 +113,9 @@ export class AccessService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 21:24:53
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 获取全部的菜单给分配角色的时候用
    * @param {*}
    * @return {*}
@@ -128,9 +128,9 @@ export class AccessService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 14:01:01
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 分页获取资源
    * @param {number} type
    * @return {*}

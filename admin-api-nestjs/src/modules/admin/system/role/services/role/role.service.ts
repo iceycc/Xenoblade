@@ -20,9 +20,9 @@ export class RoleService {
   ) {}
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 13:38:11
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 创建角色
    * @param {CreateRoleDto} createRoleDto
    * @return {*}
@@ -49,9 +49,9 @@ export class RoleService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 14:15:06
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据角色id删除角色
    * @param {number} id
    * @return {*}
@@ -78,9 +78,9 @@ export class RoleService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 14:26:46
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据角色id修改角色
    * @param {number} id
    * @param {UpdateRoleDto} updateRoleDto
@@ -108,9 +108,9 @@ export class RoleService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 14:40:13
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据角色id查询角色
    * @param {number} id
    * @return {*}
@@ -120,9 +120,9 @@ export class RoleService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 14:46:45
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 查询角色列表
    * @param {RoleReqDto} roleReqDto
    * @return {*}

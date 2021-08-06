@@ -2,6 +2,7 @@ import {useState} from 'react'
 import './style.less'
 import './md_html.less'
 import marked from './mark'
+import * as React from 'react';
 export default function MdEditor() {
     const [content, setContent] = useState('' +
         '---\n' +

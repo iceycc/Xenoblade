@@ -9,8 +9,8 @@ class LocalStorage {
    * @param {type}
    * @return:
    * @Description:获取本地存储的方法
-   * @Author: 水痕
-   * @LastEditors: 水痕
+   * @Author: 冰洋
+   * @LastEditors: 冰洋
    * @Date: 2019-08-16 13:30:46
    */
   public getItem(key: string) {
@@ -36,8 +36,8 @@ class LocalStorage {
    * @param {type}
    * @return:
    * @Description: 设置存储
-   * @Author: 水痕
-   * @LastEditors: 水痕
+   * @Author: 冰洋
+   * @LastEditors: 冰洋
    * @Date: 2019-08-16 13:31:00
    */
   public setItem(key: string, value: string, time?: any) {
@@ -59,8 +59,8 @@ class LocalStorage {
    * @param {type}
    * @return:
    * @Description: 删除存储
-   * @Author: 水痕
-   * @LastEditors: 水痕
+   * @Author: 冰洋
+   * @LastEditors: 冰洋
    * @Date: 2019-08-16 13:31:11
    */
   public removeItem(key: string): void {
@@ -82,8 +82,8 @@ class LocalStorage {
    * @param {type}
    * @return:
    * @Description: 私有方法获取key
-   * @Author: 水痕
-   * @LastEditors: 水痕
+   * @Author: 冰洋
+   * @LastEditors: 冰洋
    * @Date: 2019-08-16 13:31:22
    */
   private getKey(key: string): string {

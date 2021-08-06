@@ -152,7 +152,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
-var app = getApp();var loading = function loading() {__webpack_require__.e(/*! require.ensure | pages/commponent/public/loading */ "pages/commponent/public/loading").then((function () {return resolve(__webpack_require__(/*! ../../commponent/public/loading */ 208));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+var app = getApp();var loading = function loading() {__webpack_require__.e(/*! require.ensure | pages/commponent/public/loading */ "pages/commponent/public/loading").then((function () {return resolve(__webpack_require__(/*! ../../commponent/public/loading */ 201));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 {
   data: function data() {

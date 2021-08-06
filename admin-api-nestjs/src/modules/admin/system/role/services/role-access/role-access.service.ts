@@ -19,9 +19,9 @@ export class RoleAccessService {
   ) {}
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 21:49:26
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 给当前角色ID授权菜单、接口权限
    * @param {*}
    * @return {*}
@@ -50,9 +50,9 @@ export class RoleAccessService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-05 15:45:01
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 获取全部的菜单,可授权的
    * @param {*}
    * @return {*}
@@ -74,9 +74,9 @@ export class RoleAccessService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-05 21:14:57
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 获取全部的API
    * @param {*}
    * @return {*}
@@ -90,9 +90,9 @@ export class RoleAccessService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-24 21:35:59
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据角色id返回授权的资源列表
    * @param {*}
    * @return {*}

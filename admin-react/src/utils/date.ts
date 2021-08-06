@@ -2,9 +2,9 @@ import moment from 'moment';
 import { isString } from 'util';
 
 /**
- * @Author: 水痕
+ * @Author: 冰洋
  * @Date: 2021-04-02 13:05:40
- * @LastEditors: 水痕
+ * @LastEditors: 冰洋
  * @Description: 时间转换工具
  * @param {Date} dateNum 时间
  * @param {boolean} isDue 是否要显示时分秒

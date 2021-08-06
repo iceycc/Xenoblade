@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import {useState} from 'react';
 import ErrorBoundary from '../../components/ErrorBoundary'
-
+import * as React from 'react';
+import {useState} from 'react';
 function UserList() {
     // throw new Error('1111111')
     return <div>

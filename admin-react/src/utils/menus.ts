@@ -1,9 +1,9 @@
 import { ObjectType } from './../typings/obj-type';
 import * as _ from 'lodash';
 /**
- * @Author: 水痕
+ * @Author: 冰洋
  * @Date: 2021-04-05 16:09:38
- * @LastEditors: 水痕
+ * @LastEditors: 冰洋
  * @Description: 将数组转换为树结构
  * @param {*}
  * @return {*}

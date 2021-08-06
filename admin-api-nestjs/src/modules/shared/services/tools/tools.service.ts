@@ -20,9 +20,9 @@ export class ToolsService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 11:41:47
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 密码加密的方法
    * @param {string} password
    * @return {*}
@@ -32,9 +32,9 @@ export class ToolsService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-22 12:58:27
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 校验密码
    * @param {string} password 未加密的密码
    * @param {string} sqlPassword 加密后的密码
@@ -45,9 +45,9 @@ export class ToolsService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-22 12:57:56
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 校验分页数据
    * @param {number} pageNumber 当前页
    * @param {number} pageSize 一页显示多少条数据
@@ -63,9 +63,9 @@ export class ToolsService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 12:31:53
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 生成token的方法
    * @param {ITokenParams} params
    * @return {*}

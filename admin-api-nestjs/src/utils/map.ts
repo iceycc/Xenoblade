@@ -1,9 +1,9 @@
 import { ObjectType } from '@src/types/obj-type';
 
 /**
- * @Author: 水痕
+ * @Author: 冰洋
  * @Date: 2021-03-26 14:35:21
- * @LastEditors: 水痕
+ * @LastEditors: 冰洋
  * @Description: 将map转换为对象
  * @param {Map} map
  * @param {*} any

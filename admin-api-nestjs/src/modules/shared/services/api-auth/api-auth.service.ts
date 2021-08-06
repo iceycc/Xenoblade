@@ -15,9 +15,9 @@ export class ApiAuthService {
     private readonly accessRepository: Repository<AccessEntity>,
   ) {}
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-07 14:12:12
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 拦截api
    * @param {ICurrentUserType} user
    * @param {string} method

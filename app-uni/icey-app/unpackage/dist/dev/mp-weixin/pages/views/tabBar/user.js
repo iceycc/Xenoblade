@@ -248,7 +248,7 @@ var _auth = __webpack_require__(/*! @/utils/auth */ 8); //
 //
 //
 //
-var app = getApp();var listCell = function listCell() {__webpack_require__.e(/*! require.ensure | pages/commponent/user/list-cell */ "pages/commponent/user/list-cell").then((function () {return resolve(__webpack_require__(/*! ../../commponent/user/list-cell */ 194));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var myServer = function myServer() {__webpack_require__.e(/*! require.ensure | pages/commponent/user/my-server */ "pages/commponent/user/my-server").then((function () {return resolve(__webpack_require__(/*! ../../commponent/user/my-server */ 201));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { colors: '', startY: 0, //原始坐标
+var app = getApp();var listCell = function listCell() {__webpack_require__.e(/*! require.ensure | pages/commponent/user/list-cell */ "pages/commponent/user/list-cell").then((function () {return resolve(__webpack_require__(/*! ../../commponent/user/list-cell */ 187));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var myServer = function myServer() {__webpack_require__.e(/*! require.ensure | pages/commponent/user/my-server */ "pages/commponent/user/my-server").then((function () {return resolve(__webpack_require__(/*! ../../commponent/user/my-server */ 194));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { colors: '', startY: 0, //原始坐标
       moving: false, //当前元素的状态（是否移动）
       coverTransform: 'translateY(0px)', //元素的移动
       coverTransition: '0s', logList: [{ //足迹的数据应该由后台进行存储

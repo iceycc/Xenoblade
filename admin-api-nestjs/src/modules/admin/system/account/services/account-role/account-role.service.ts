@@ -17,9 +17,9 @@ export class AccountRoleService {
   ) {}
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 16:08:47
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 根据账号id获取授权的角色列表
    * @param {number} accountId
    * @return {*}
@@ -34,9 +34,9 @@ export class AccountRoleService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-03-23 18:01:44
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 给账号分配角色
    * @param {DistributionRoleDto} distributionRoleDto
    * @return {*}
@@ -63,9 +63,9 @@ export class AccountRoleService {
   }
 
   /**
-   * @Author: 水痕
+   * @Author: 冰洋
    * @Date: 2021-04-03 10:43:55
-   * @LastEditors: 水痕
+   * @LastEditors: 冰洋
    * @Description: 获取全部的角色
    * @param {*}
    * @return {*}
